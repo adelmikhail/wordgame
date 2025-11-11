@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    text-align: center;
+    padding: 40px;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  #wordArea, #submittedWords {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .tile {
+    background: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+  }
+
+  #keyboard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    justify-content: center;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+
+  .key {
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    transition: background 0.2s;
+  }
+
+  .key:hover {
+    background: #e0e0e0;
+  }
+
+  #scoreBox {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+  }
+
+  #powerLeft {
+    font-weight: bold;
+    color: #007700;
+  }
+
+  button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 10px 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #45a049;
+  }
+
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+
+  #submittedWordsTitle {
+    font-size: 20px;
+    margin-top: 25px;
+    color: #222;
+  }
