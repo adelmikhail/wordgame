@@ -113,7 +113,7 @@ const letterValues = {
     const formedWord = currentWord.join("").toUpperCase();
 
     if (!validWords.has(formedWord)) {
-      alert(`"${formedWord}" is NOT a valid CSW word! Try another.`);
+      alert(`"${formedWord}" is NOT a valid word!`);
       return; // invalid word → no submission
     }
 
